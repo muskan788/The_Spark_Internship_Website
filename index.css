@@ -1,0 +1,71 @@
+body{
+  background-image: url('donate.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+.topnav {
+    background-color:black;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .foot{
+    font: size 17px;
+    color: aqua;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:white;
+    text-align: center;
+    background-color:black;
+  }
+
+  .donate{
+    margin:0;
+    position: absolute;
+    top:65%;
+    left: 50%;
+    -ms-tranform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
+    background-color:black;
+    border: none;
+    color:rgb(40, 203, 231);
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .donate:hover{
+    background-color:rgb(245, 65, 20);
+    
+}
+
+
+  
